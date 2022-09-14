@@ -1,0 +1,66 @@
+@font-face {
+    font-family: 'CurseTimerUlil';
+    src: url(fonts/CursedTimerUlil-Aznm.ttf) format('truetype');
+}
+
+body {
+    margin: 0;
+    background: #111827;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.btn-space {
+    display: flex;
+    justify-content: space-around;
+}
+
+.restart-score-btn {
+    cursor: pointer;
+    border: 1px solid #9CA3AF;
+    border-radius: 3px;
+    background-color: transparent;
+    color: #9CA3AF;
+    font-size: 15px;
+    padding: 0.5em 1em;
+}
+
+.plus-botton {
+    cursor: pointer;
+    border: 1px solid #9CA3AF;
+    border-radius: 3px;
+    background-color: transparent;
+    color: #9CA3AF;
+    font-family: 'CurseTimerUlil', sans-serif;
+    font-size: 15px;
+    padding: 0.5em;
+}
+
+h3 {
+    color: #ffffff;
+    text-align: center;
+}
+
+.number {
+    font-family: 'CurseTimerUlil', sans-serif;
+    color: #E11D48;
+    text-align: center;
+    font-size: 60px;
+    background-color: black;
+    border-radius: 0.5em;
+}
+
+.score {
+    padding: 0.5em 0.8em;
+    border-radius: 0.5em;
+    margin-block-start: auto;
+    margin-block-end: auto;
+}
+
+.btns-bar {
+    margin-top: 1em;
+    margin-block-end: 1em;
+}

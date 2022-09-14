@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+    <link rel="stylesheet" href="index.css">
+    <title>Scoreboard Project</title>
+</head>
+<body>
+    <div class="container">
+        <div>
+            <h3 class="table-title">HOME</h3>
+            <div class="number" id="number1">
+                <p class="score" id="score-1">0</p>
+            </div>
+            <div class="btns-bar">
+                <button class="plus-botton" id="plus1-home" onclick="homePlusOne()">+1</button>
+                <button class="plus-botton" id="plus2-home" onclick="homePlusTwo()">+2</button>
+                <button class="plus-botton" id="plus3-home" onclick="homePlusThree()">+3</button>
+            </div>
+        </div>
+        <div>
+            <h3 class="table-title">GUEST</h3>
+            <div class="number" id="number2">
+                <p class="score" id="score-2">0</p>
+            </div>
+            <div class="btns-bar">
+                <button class="plus-botton" id="plus1-guest" onclick="guestPlusOne()">+1</button>
+                <button class="plus-botton" id="plus2-guest" onclick="guestPlusTwo()">+2</button>
+                <button class="plus-botton" id="plus3-guest" onclick="guestPlusThree()">+3</button>
+            </div>
+        </div>
+    </div>
+    <div class="btn-space">
+        <button class="restart-score-btn" onclick="restartScore()">Restart</button>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
